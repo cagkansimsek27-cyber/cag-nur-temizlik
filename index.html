@@ -237,6 +237,158 @@ footer{background:#081d2e;color:#aebbc2;text-align:center;padding:27px 15px;font
     right:18px !important;
   }
  }
+ /* PREMIUM TASARIM */
+.hero{
+  background:
+    radial-gradient(circle at 85% 20%,rgba(75,210,100,.22),transparent 32%),
+    radial-gradient(circle at 15% 90%,rgba(40,150,210,.18),transparent 35%),
+    linear-gradient(135deg,#0b304b 0%,#124d69 52%,#176044 100%);
+}
+
+.hero-content{
+  position:relative;
+}
+
+.hero h1{
+  text-shadow:0 3px 18px rgba(0,0,0,.18);
+}
+
+.btn{
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+.btn-wa{
+  box-shadow:0 8px 22px rgba(32,212,103,.25);
+}
+
+.service-card{
+  transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;
+}
+
+.service-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 16px 35px rgba(18,54,83,.12);
+  border-color:#b9ddc4;
+}
+
+.premium-section{
+  padding:70px 0;
+  background:#fff;
+}
+
+.premium-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+  margin-top:38px;
+}
+
+.premium-card{
+  padding:28px 22px;
+  background:#f7fbf8;
+  border:1px solid #e1ece5;
+  border-radius:20px;
+  text-align:center;
+  transition:.2s ease;
+}
+
+.premium-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 14px 30px rgba(18,54,83,.09);
+}
+
+.premium-icon{
+  width:58px;
+  height:58px;
+  margin:0 auto 16px;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#e4f5e8;
+  font-size:27px;
+}
+
+.premium-card h3{
+  font-size:18px;
+  margin-bottom:8px;
+  color:#123653;
+}
+
+.premium-card p{
+  color:#718087;
+  font-size:14px;
+  line-height:1.55;
+}
+
+.steps{
+  padding:70px 0;
+  background:#f1f9f4;
+}
+
+.steps-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+  margin-top:38px;
+}
+
+.step{
+  background:#fff;
+  border-radius:20px;
+  padding:28px 20px;
+  text-align:center;
+  border:1px solid #e1ebe5;
+}
+
+.step-number{
+  width:46px;
+  height:46px;
+  margin:0 auto 15px;
+  border-radius:50%;
+  background:#173d5b;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:18px;
+}
+
+.step h3{
+  font-size:17px;
+  margin-bottom:7px;
+}
+
+.step p{
+  color:#718087;
+  font-size:13px;
+  line-height:1.5;
+}
+
+@media(max-width:800px){
+  .premium-grid,
+  .steps-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:430px){
+  .premium-grid,
+  .steps-grid{
+    grid-template-columns:1fr;
+  }
+
+  .premium-section,
+  .steps{
+    padding:55px 0;
+  }
+ }
 </style>
 </head>
 <body>
@@ -286,6 +438,77 @@ footer{background:#081d2e;color:#aebbc2;text-align:center;padding:27px 15px;font
   <div class="trust">GÜVENİLİR <span>•</span> KALİTELİ <span>•</span> SÜREKLİ</div>
  </div>
 </section>
+ <section class="premium-section">
+  <div class="container">
+    <h2 class="section-title">Neden Çağ-Nur Temizlik?</h2>
+    <p class="section-subtitle">
+      Temizlikte düzen, güven ve sürekliliği bir arada sunuyoruz.
+    </p>
+
+    <div class="premium-grid">
+
+      <div class="premium-card">
+        <div class="premium-icon">✓</div>
+        <h3>Titiz Çalışma</h3>
+        <p>Ortak alanlardan yaşam alanlarına kadar detaylara önem veriyoruz.</p>
+      </div>
+
+      <div class="premium-card">
+        <div class="premium-icon">⏱</div>
+        <h3>Düzenli Hizmet</h3>
+        <p>Belirlenen programa uygun, düzenli ve planlı temizlik.</p>
+      </div>
+
+      <div class="premium-card">
+        <div class="premium-icon">★</div>
+        <h3>Güvenilir Hizmet</h3>
+        <p>İşimize özen gösteriyor, verdiğimiz hizmetin arkasında duruyoruz.</p>
+      </div>
+
+      <div class="premium-card">
+        <div class="premium-icon">✦</div>
+        <h3>İhtiyaca Özel</h3>
+        <p>Her apartman, site, ev ve işyeri için ihtiyaca uygun çözümler.</p>
+      </div>
+
+    </div>
+  </div>
+ </section>
+ <section class="steps">
+  <div class="container">
+    <div class="eyebrow">NASIL ÇALIŞIYORUZ?</div>
+    <h2 class="section-title">Temizlik Sürecimiz</h2>
+    <p class="section-sub">İhtiyacınızı belirleyelim, temizliği planlayalım.</p>
+
+    <div class="steps-grid">
+
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Teklif Alın</h3>
+        <p>WhatsApp veya telefon üzerinden bize ulaşın.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>İhtiyacı Belirleyelim</h3>
+        <p>Temizlenecek alanı ve hizmet detaylarını birlikte belirleyelim.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Temizliği Planlayalım</h3>
+        <p>Uygun gün ve saat için hizmet planını oluşturalım.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">4</div>
+        <h3>Düzenli Hizmet</h3>
+        <p>Planlanan programa uygun şekilde temiz ve düzenli alanlar.</p>
+      </div>
+
+    </div>
+  </div>
+ </section>
 
 <section class="services-section" id="hizmetler">
  <div class="container">
