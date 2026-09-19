@@ -3,15 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Çağ-Nur Temizlik | Sarıçam / Adana</title>
-<meta name="description" content="Çağ-Nur Temizlik - Sarıçam ve Adana'da apartman, site, ev, ofis ve işyeri temizliği.">
+<title>Çağ-Nur Temizlik | Sarıçam ve Adana Apartman Temizliği</title>
+<meta name="description" content="Çağ-Nur Temizlik; Sarıçam ve Adana'da apartman, site, merdiven, ortak alan, ofis ve işyeri temizliği hizmeti sunar. Teklif alın.">
 <meta name="robots" content="index,follow">
-<meta name="theme-color" content="#ffffff">
- <link rel="canonical" href="https://cagkansimsek27-cyber.github.io/cag-nur-temizlik/">
+<meta name="theme-color" content="#123653">
+<meta name="geo.region" content="TR-01">
+<meta name="geo.placename" content="Sarıçam, Adana, Türkiye">
+ <link rel="canonical" href="https://cagnurtemizlik.com.tr/">
  <meta property="og:title" content="Çağ-Nur Temizlik | Sarıçam / Adana">
 <meta property="og:description" content="Sarıçam ve Adana'da apartman, site, ev, ofis ve işyeri temizliği hizmetleri.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://cagkansimsek27-cyber.github.io/cag-nur-temizlik/">
+<meta property="og:url" content="https://cagnurtemizlik.com.tr/">
 <meta name="twitter:card" content="summary">
  <script type="application/ld+json">
 {
@@ -21,7 +23,7 @@
   "description": "Sarıçam ve Adana'da apartman, site, ev, ofis ve işyeri temizliği hizmetleri.",
   "priceRange": "₺₺",
   "telephone": "+905419147801",
-  "url": "https://cagkansimsek27-cyber.github.io/cag-nur-temizlik/",
+  "url": "https://cagnurtemizlik.com.tr/",
   "areaServed": [
     {
       "@type": "City",
@@ -390,6 +392,19 @@ footer{background:#081d2e;color:#aebbc2;text-align:center;padding:27px 15px;font
   }
  }
 </style>
+
+<style>
+.mobile-menu{position:fixed;top:0;right:-330px;width:min(330px,88vw);height:100vh;background:#fff;z-index:1000;padding:90px 28px 30px;display:flex;flex-direction:column;gap:10px;box-shadow:-12px 0 35px rgba(0,0,0,.18);transition:right .25s ease}
+.mobile-menu.open{right:0}
+.mobile-menu a{padding:16px 8px;border-bottom:1px solid #e7eeea;font-size:17px;font-weight:800;color:#123653}
+.mobile-menu .mobile-wa{margin-top:12px;border:0;border-radius:10px;background:#20d467;color:#fff;text-align:center}
+.mobile-close{position:absolute;top:22px;right:20px;width:44px;height:44px;border:0;border-radius:50%;background:#f1f5f3;color:#123653;font-size:32px;line-height:1;cursor:pointer}
+.menu-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:999;opacity:0;visibility:hidden;transition:.25s ease}
+.menu-backdrop.open{opacity:1;visibility:visible}
+body.menu-open{overflow:hidden}
+@media(min-width:801px){.mobile-menu,.menu-backdrop{display:none!important}}
+</style>
+
 </head>
 <body>
 
@@ -407,9 +422,20 @@ footer{background:#081d2e;color:#aebbc2;text-align:center;padding:27px 15px;font
    <a href="#iletisim">İletişim</a>
   </nav>
 
-  <button class="hamburger" aria-label="Menü"><span></span><span></span><span></span></button>
+  <button class="hamburger" id="menuToggle" type="button" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span><span></span></button>
  </div>
 </header>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+ <button class="mobile-close" id="mobileClose" type="button" aria-label="Menüyü kapat">×</button>
+ <a href="#hizmetler">Hizmetler</a>
+ <a href="#teklif">Teklif Al</a>
+ <a href="#yorumlar">Yorumlar</a>
+ <a href="#iletisim">İletişim</a>
+ <a class="mobile-wa" target="_blank" href="https://wa.me/905419147801?text=Merhaba%20Çağ-Nur%20Temizlik%20fiyat%20teklifi%20almak%20istiyorum.">WhatsApp'tan Teklif Al</a>
+</div>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+
 
 <section class="hero" id="anasayfa">
  <div class="container hero-inner">
@@ -644,5 +670,27 @@ ${document.getElementById("message").value || "Belirtilmedi"}`;
  window.open("https://wa.me/905419147801?text="+encodeURIComponent(text),"_blank");
 });
 </script>
+
+<script>
+(function(){
+ const toggle=document.getElementById("menuToggle");
+ const menu=document.getElementById("mobileMenu");
+ const close=document.getElementById("mobileClose");
+ const backdrop=document.getElementById("menuBackdrop");
+ function setMenu(open){
+   menu.classList.toggle("open",open);
+   backdrop.classList.toggle("open",open);
+   document.body.classList.toggle("menu-open",open);
+   toggle.setAttribute("aria-expanded",String(open));
+   menu.setAttribute("aria-hidden",String(!open));
+ }
+ toggle.addEventListener("click",()=>setMenu(true));
+ close.addEventListener("click",()=>setMenu(false));
+ backdrop.addEventListener("click",()=>setMenu(false));
+ menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>setMenu(false)));
+ document.addEventListener("keydown",e=>{if(e.key==="Escape")setMenu(false)});
+})();
+</script>
+
 </body>
 </html>
