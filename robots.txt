@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cagkansimsek27-cyber.github.io/cag-nur-temizlik/sitemap.xml
+Sitemap: https://cagnurtemizlik.com.tr/sitemap.xml
