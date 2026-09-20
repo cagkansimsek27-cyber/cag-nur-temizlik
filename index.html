@@ -267,12 +267,125 @@ textarea{min-height:105px;resize:vertical}
 .contact .actions{justify-content:center}
 
 /* FOOTER LOGO */
-.footer-logo-wrap{display:flex;justify-content:center;align-items:center;margin:0 auto 12px}
-.footer-logo{width:330px;height:auto;max-height:250px;object-fit:contain;display:block;max-width:90vw;}
-
-/* FOOTER */
-footer{background:#081d2e;color:#aebbc2;text-align:center;padding:27px 15px;font-size:13px}
-.footer-name{font-size:20px;color:#fff;font-weight:900;margin-bottom:5px}
+/* FOOTER - REFERANS TASARIMA UYUMLU */
+.footer{
+  background:#071f31;
+  color:#d9e4ea;
+  text-align:center;
+  padding:0 0 34px;
+  font-size:15px;
+}
+.footer-cta{
+  max-width:1140px;
+  margin:0 auto 0;
+  padding:0 16px;
+}
+.footer-cta a{
+  min-height:108px;
+  margin:0;
+  border-radius:0 0 22px 22px;
+  background:linear-gradient(135deg,#19d66a,#20d467);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  font-size:31px;
+  font-weight:900;
+  box-shadow:0 10px 30px rgba(32,212,103,.18);
+}
+.footer-cta-icon{
+  width:58px;
+  height:58px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:4px solid #fff;
+  border-radius:50%;
+  font-size:31px;
+  line-height:1;
+}
+.footer-inner{
+  max-width:1150px;
+  margin:0 auto;
+  padding:72px 24px 0;
+}
+.footer-logo-wrap{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto 24px;
+}
+.footer-logo{
+  width:min(860px,92vw);
+  height:auto;
+  max-height:360px;
+  object-fit:contain;
+  display:block;
+}
+.footer-services{
+  color:#dce7ed;
+  font-size:22px;
+  line-height:1.45;
+  margin-bottom:17px;
+}
+.footer-location{
+  color:#e4edf2;
+  font-size:21px;
+  margin-bottom:28px;
+}
+.footer-contact-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:16px;
+  margin-bottom:38px;
+}
+.footer-social{
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#1b344b;
+  color:#fff;
+  font-size:30px;
+  font-weight:900;
+}
+.footer-social-wa{background:#20d467}
+.footer-phone-divider{
+  width:1px;
+  height:48px;
+  background:#91aabd;
+  margin:0 20px 0 10px;
+}
+.footer-phone{
+  color:#fff;
+  font-size:31px;
+  font-weight:900;
+  letter-spacing:.5px;
+}
+.footer-nav{
+  border-top:1px solid #7891a3;
+  padding-top:27px;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:0;
+}
+.footer-nav a{
+  color:#dbe5eb;
+  font-size:21px;
+  padding:0 24px;
+  border-right:1px solid #7891a3;
+}
+.footer-nav a:last-child{border-right:0}
+.footer-copy{
+  color:#b9c8d1;
+  font-size:17px;
+  margin-top:32px;
+}
 .float-wa{position:fixed;right:18px;bottom:18px;width:64px;height:64px;border-radius:50%;background:#20d467;color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;z-index:200;box-shadow:0 7px 23px rgba(0,0,0,.22)}
 
 @media(max-width:800px){
@@ -491,6 +604,30 @@ footer{background:#081d2e;color:#aebbc2;text-align:center;padding:27px 15px;font
 .menu-backdrop.open{opacity:1;visibility:visible}
 body.menu-open{overflow:hidden}
 @media(min-width:801px){.mobile-menu,.menu-backdrop{display:none!important}}
+
+@media(max-width:800px){
+ .footer-inner{padding:54px 16px 0}
+ .footer-cta{padding:0 14px}
+ .footer-cta a{min-height:88px;font-size:25px;border-radius:0 0 18px 18px}
+ .footer-cta-icon{width:50px;height:50px;font-size:27px}
+ .footer-logo{width:min(860px,94vw);max-height:none}
+ .footer-services{font-size:16px}
+ .footer-location{font-size:17px;margin-bottom:22px}
+ .footer-contact-row{gap:10px;margin-bottom:30px}
+ .footer-social{width:56px;height:56px;font-size:26px}
+ .footer-phone-divider{height:42px;margin:0 5px}
+ .footer-phone{font-size:22px}
+ .footer-nav a{font-size:16px;padding:0 12px;margin:7px 0}
+ .footer-copy{font-size:14px;margin-top:26px;line-height:1.5}
+}
+@media(max-width:430px){
+ .footer-services{font-size:14px}
+ .footer-location{font-size:16px}
+ .footer-phone{font-size:19px}
+ .footer-social{width:50px;height:50px;font-size:23px}
+ .footer-phone-divider{margin:0 2px}
+ .footer-nav a{font-size:14px;padding:0 9px}
+}
 </style>
 
 </head>
@@ -777,12 +914,34 @@ body.menu-open{overflow:hidden}
  </div>
 </section>
 
-<footer>
- <div class="footer-logo-wrap"><img class="footer-logo" src="/assets/footer-logo-shirt.png" alt="Çağ-Nur Temizlik"></div>
- <div class="footer-name">Çağ-Nur Temizlik</div>
- <div>Apartman • Site • Ortak Alan • Ofis • İşyeri</div>
- <div style="margin-top:7px">Sarıçam / Adana</div>
- <div style="margin-top:12px">© 2026 Çağ-Nur Temizlik. Tüm hakları saklıdır.</div>
+<footer class="footer">
+ <div class="footer-cta">
+  <a target="_blank" href="https://wa.me/905419147801?text=Merhaba%20Çağ-Nur%20Temizlik%20fiyat%20teklifi%20almak%20istiyorum." aria-label="WhatsApp'tan teklif al">
+   <span class="footer-cta-icon">◔</span>
+   <span>WhatsApp</span>
+  </a>
+ </div>
+ <div class="footer-inner">
+  <div class="footer-logo-wrap">
+   <img class="footer-logo" src="/assets/footer-logo-shirt.png" alt="Çağ-Nur Temizlik">
+  </div>
+  <div class="footer-services">Apartman • Site • Ortak Alan • Ofis • İşyeri</div>
+  <div class="footer-location">📍 Sarıçam / Adana</div>
+  <div class="footer-contact-row">
+   <a class="footer-social footer-social-wa" target="_blank" href="https://wa.me/905419147801" aria-label="WhatsApp">◔</a>
+   <span class="footer-social" aria-label="Instagram">◎</span>
+   <a class="footer-social" href="tel:05419147801" aria-label="Telefon">⌕</a>
+   <span class="footer-phone-divider"></span>
+   <a class="footer-phone" href="tel:05419147801">0541 914 78 01</a>
+  </div>
+  <nav class="footer-nav" aria-label="Alt menü">
+   <a href="#anasayfa">Ana Sayfa</a>
+   <a href="#hizmetler">Hizmetlerimiz</a>
+   <a href="#saricam-apartman-temizligi">Hakkımızda</a>
+   <a href="#iletisim">İletişim</a>
+  </nav>
+  <div class="footer-copy">© 2026 Çağ-Nur Temizlik. Tüm hakları saklıdır.</div>
+ </div>
 </footer>
 
 <a class="float-wa" target="_blank" href="https://wa.me/905419147801?text=Merhaba%2C%20Çağ-Nur%20Temizlik%20fiyat%20teklifi%20almak%20istiyorum." aria-label="WhatsApp"><svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true">
