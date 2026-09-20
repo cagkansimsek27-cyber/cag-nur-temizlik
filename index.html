@@ -631,6 +631,83 @@ body.menu-open{overflow:hidden}
  .footer-nav a{font-size:14px;padding:0 9px}
 }
 
+/* Footer exact compact layout */
+.footer{
+ background:#061d30!important;
+ color:#d9e5ec;
+ text-align:center;
+ padding:0!important;
+ overflow:hidden;
+}
+.footer-inner{
+ max-width:none;
+ margin:0 auto;
+ padding:44px 16px 48px!important;
+}
+.footer-logo-wrap,
+.footer-contact-row,
+.footer-nav{
+ display:none!important;
+}
+.footer-services{
+ color:#d9e4ec;
+ font-size:16px!important;
+ line-height:1.45;
+ margin:0 0 14px!important;
+}
+.footer-location{
+ color:#d9e4ec;
+ font-size:16px!important;
+ line-height:1.45;
+ margin:0 0 22px!important;
+ display:block!important;
+}
+.footer-location .pin{
+ display:none!important;
+}
+.footer-copy{
+ color:#b9c8d1;
+ font-size:14px!important;
+ line-height:1.5;
+ margin:0!important;
+}
+</style>
+
+<style>
+.mobile-menu{position:fixed;top:0;right:-330px;width:min(330px,88vw);height:100vh;background:#fff;z-index:1000;padding:90px 28px 30px;display:flex;flex-direction:column;gap:10px;box-shadow:-12px 0 35px rgba(0,0,0,.18);transition:right .25s ease}
+.mobile-menu.open{right:0}
+.mobile-menu a{padding:16px 8px;border-bottom:1px solid #e7eeea;font-size:17px;font-weight:800;color:#123653}
+.mobile-menu .mobile-wa{margin-top:12px;border:0;border-radius:10px;background:#20d467;color:#fff;text-align:center}
+.mobile-close{position:absolute;top:22px;right:20px;width:44px;height:44px;border:0;border-radius:50%;background:#f1f5f3;color:#123653;font-size:32px;line-height:1;cursor:pointer}
+.menu-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:999;opacity:0;visibility:hidden;transition:.25s ease}
+.menu-backdrop.open{opacity:1;visibility:visible}
+body.menu-open{overflow:hidden}
+@media(min-width:801px){.mobile-menu,.menu-backdrop{display:none!important}}
+
+@media(max-width:800px){
+ .footer-inner{padding:54px 16px 0}
+ .footer-cta{padding:0 14px}
+ .footer-cta a{min-height:88px;font-size:25px;border-radius:0 0 18px 18px}
+ .footer-cta-icon{width:50px;height:50px;font-size:27px}
+ .footer-logo{width:min(860px,94vw);max-height:none}
+ .footer-services{font-size:16px}
+ .footer-location{font-size:17px;margin-bottom:22px}
+ .footer-contact-row{gap:10px;margin-bottom:30px}
+ .footer-social{width:56px;height:56px;font-size:26px}
+ .footer-phone-divider{height:42px;margin:0 5px}
+ .footer-phone{font-size:22px}
+ .footer-nav a{font-size:16px;padding:0 12px;margin:7px 0}
+ .footer-copy{font-size:14px;margin-top:26px;line-height:1.5}
+}
+@media(max-width:430px){
+ .footer-services{font-size:14px}
+ .footer-location{font-size:16px}
+ .footer-phone{font-size:19px}
+ .footer-social{width:50px;height:50px;font-size:23px}
+ .footer-phone-divider{margin:0 2px}
+ .footer-nav a{font-size:14px;padding:0 9px}
+}
+
 /* Footer reference layout */
 .footer{background:#061d30!important;color:#d9e5ec;text-align:center;padding:0 0 46px;overflow:hidden}
 .footer-cta{display:none!important}
