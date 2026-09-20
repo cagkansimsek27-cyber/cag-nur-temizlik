@@ -837,4 +837,37 @@ ${document.getElementById("message").value || "Belirtilmedi"}`;
  </div>
 </div>
 
+<script>
+(function(){
+ const data={
+  ev:{icon:"🏠",title:"Ev / Daire Temizliği",intro:"Ev ve daireler için ihtiyaca göre planlanan, yaşam alanlarının düzenli ve detaylı temizliğine yönelik hizmet.",list:["Salon, oda ve yaşam alanları","Mutfak ve banyo temizliği","Zemin ve yüzey temizliği","Kapı, dolap ve sık kullanılan yüzeyler","İhtiyaca göre cam ve detay temizlik"],blog:"/blog/adana-apartman-temizligi-nasil-planlanir.html"},
+  site:{icon:"🏢",title:"Site Temizliği",intro:"Site ortak alanlarının kullanım yoğunluğuna ve çalışma programına göre düzenli temizliği.",list:["Site girişleri ve holler","Blok merdivenleri ve sahanlıklar","Koridor ve ortak alanlar","Asansör ve çevresi","Çöp alanları ve ihtiyaca göre cam temizliği"],blog:"/blog/saricam-site-temizligi-fiyatlari-2026.html"},
+  ofis:{icon:"💼",title:"Ofis / İşyeri Temizliği",intro:"Ofis ve işyerlerinde çalışma düzenini aksatmadan planlanabilen profesyonel temizlik hizmeti.",list:["Çalışma alanları ve ortak bölümler","Masa ve yüzeylerin temizliği","Zemin temizliği","Mutfak ve lavabo alanları","İhtiyaca göre detaylı temizlik"],blog:"/blog/apartman-temizlik-firmasi-secerken-dikkat-edilecekler.html"},
+  apartman:{icon:"🏘️",title:"Apartman Temizliği",intro:"Apartman girişinden merdiven ve sahanlıklara kadar ortak kullanım alanları için düzenli temizlik hizmeti.",list:["Bina giriş ve holü","Merdivenler ve sahanlıklar","Korkuluk ve trabzanlar","Asansör ve çevresi","Koridorlar ve ortak alanlar","İhtiyaca göre çöp ve cam temizliği"],blog:"/blog/saricam-apartman-merdiven-temizligi.html"},
+  cam:{icon:"🪟",title:"Cam Temizliği",intro:"Apartman, site, ev ve işyerlerinde ihtiyaca göre planlanan cam temizliği hizmeti.",list:["İç ve dış cam yüzeyleri","Pencere kenarları ve çerçeveler","Ortak alan camları","İhtiyaca göre dönemsel cam temizliği"],blog:"/blog/saricam-ortak-alan-temizligi.html"},
+  detay:{icon:"✨",title:"Detaylı Temizlik",intro:"Normal temizlikten daha kapsamlı, alanın ihtiyacına göre planlanan detaylı temizlik hizmeti.",list:["Köşe ve ulaşılması zor alanlar","Detaylı yüzey temizliği","Mutfak ve banyo detayları","Kapı, süpürgelik ve benzeri ayrıntılar","İhtiyaca göre kapsamlı temizlik planı"],blog:"/blog/adana-apartman-temizligi-nasil-planlanir.html"}
+ };
+ const modal=document.getElementById("serviceModal");
+ const title=document.getElementById("serviceModalTitle"), intro=document.getElementById("serviceModalIntro");
+ const icon=document.getElementById("serviceModalIcon"), list=document.getElementById("serviceModalList"), links=document.getElementById("serviceModalLinks");
+ let lastFocus=null;
+ function openService(key){
+  const d=data[key]; if(!d)return;
+  lastFocus=document.activeElement;
+  icon.textContent=d.icon; title.textContent=d.title; intro.textContent=d.intro;
+  list.innerHTML=d.list.map(x=>"<li>"+x+"</li>").join("");
+  links.innerHTML='<a class="modal-wa" target="_blank" href="https://wa.me/905419147801?text='+encodeURIComponent("Merhaba Çağ-Nur Temizlik, "+d.title+" hizmeti için teklif almak istiyorum.")+'">WhatsApp\'tan Teklif Al</a><a class="modal-call" href="tel:05419147801">Hemen Ara</a><a class="modal-blog" href="'+d.blog+'">İlgili yazıyı oku →</a>';
+  modal.classList.add("open"); modal.setAttribute("aria-hidden","false"); document.body.classList.add("service-modal-open");
+  modal.querySelector(".service-modal-close").focus();
+ }
+ function closeService(){
+  modal.classList.remove("open"); modal.setAttribute("aria-hidden","true"); document.body.classList.remove("service-modal-open");
+  if(lastFocus)lastFocus.focus();
+ }
+ document.querySelectorAll(".service-card-click").forEach(card=>card.addEventListener("click",()=>openService(card.dataset.service)));
+ modal.querySelectorAll("[data-close-service]").forEach(el=>el.addEventListener("click",closeService));
+ document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modal.classList.contains("open"))closeService()});
+})();
+</script>
+</body>
 </html>
