@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#123653"/><stop offset="1" stop-color="#18a8ef"/></linearGradient>
+</defs>
+<circle cx="256" cy="256" r="246" fill="#fff" stroke="url(#b)" stroke-width="20"/>
+<path d="M105 205 L225 125 L305 175 L380 125 L380 170 L420 205 L300 205 L225 155 L135 215 Z" fill="#0d4b7b"/>
+<path d="M95 285 C145 235 205 235 250 270 L365 350 L365 235 L395 235 L395 370 C395 392 370 403 352 391 L235 315 C195 289 150 285 120 315 Z" fill="url(#b)"/>
+<path d="M205 300 C240 270 278 270 315 295 L370 332 L350 350 L295 315 C267 297 242 297 220 315 Z" fill="#fff"/>
+<rect x="216" y="151" width="24" height="24" fill="#0d4b7b"/><rect x="246" y="151" width="24" height="24" fill="#0d4b7b"/>
+<rect x="216" y="181" width="24" height="24" fill="#0d4b7b"/><rect x="246" y="181" width="24" height="24" fill="#0d4b7b"/>
+<g fill="#18a8ef">
+ <path d="M407 260 l7 17 17 7-17 7-7 17-7-17-17-7 17-7z"/>
+ <path d="M382 305 l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/>
+</g>
+<text x="256" y="425" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="900" fill="#123653">ÇAĞ-NUR</text>
+<text x="256" y="468" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" letter-spacing="7" fill="#18a8ef">TEMİZLİK</text>
+</svg>
