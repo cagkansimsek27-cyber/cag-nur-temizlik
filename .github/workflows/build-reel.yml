@@ -1,6 +1,10 @@
 name: Build Reel Video
 
 on:
+  push:
+    paths:
+      - "hikaye.jpg"
+      - ".github/workflows/build-reel.yml"
   workflow_dispatch:
 
 jobs:
