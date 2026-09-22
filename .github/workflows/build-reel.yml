@@ -1,0 +1,22 @@
+name: Build Reel Video
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create MP4
+        run: |
+          ffmpeg -y -loop 1 -i hikaye.jpg -t 10 -vf "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p" -r 30 -c:v libx264 -preset medium -crf 23 -movflags +faststart cagnur-reels.mp4
+      - name: Publish release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete reel-v1 --yes || true
+          git push --delete origin reel-v1 || true
+          gh release create reel-v1 cagnur-reels.mp4 --title "Çağ-Nur Temizlik Reel" --notes "Instagram Reel video"
