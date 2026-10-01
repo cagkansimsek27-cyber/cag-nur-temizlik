@@ -23,28 +23,203 @@
  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "CleaningService",
-  "@id": "https://cagnurtemizlik.com.tr/#business",
-  "name": "Çağ-Nur Temizlik",
-  "description": "Sarıçam ve Adana'da apartman, site, merdiven, ortak alan, asansör, cam, ev, ofis ve işyeri temizliği hizmetleri.",
-  "telephone": "+905419147801",
-  "url": "https://cagnurtemizlik.com.tr/",
-  "sameAs": ["https://www.instagram.com/cagnurtemizlik/"],
-  "priceRange": "₺₺",
-  "areaServed": [
-    {"@type":"AdministrativeArea","name":"Sarıçam"},
-    {"@type":"City","name":"Adana"}
-  ],
-  "serviceType": [
-    "Sarıçam Apartman Temizliği",
-    "Sarıçam Site Temizliği",
-    "Merdiven Temizliği",
-    "Ortak Alan Temizliği",
-    "Asansör Temizliği",
-    "Cam Temizliği",
-    "Ev ve Daire Temizliği",
-    "Ofis ve İşyeri Temizliği",
-    "Detaylı Temizlik"
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "CleaningService"
+      ],
+      "@id": "https://cagnurtemizlik.com.tr/#business",
+      "name": "Çağ-Nur Temizlik",
+      "url": "https://cagnurtemizlik.com.tr/",
+      "telephone": "+905419147801",
+      "description": "Çağ-Nur Temizlik, Sarıçam ve Adana'da apartman, site, ortak alan, merdiven, asansör, cam, ev, ofis ve işyeri temizliği ile inşaat sonrası temizlik hizmetleri sunar.",
+      "priceRange": "₺₺",
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Sarıçam",
+          "containedInPlace": {
+            "@type": "City",
+            "name": "Adana"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Adana"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Seyhan",
+          "containedInPlace": {
+            "@type": "City",
+            "name": "Adana"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Yüreğir",
+          "containedInPlace": {
+            "@type": "City",
+            "name": "Adana"
+          }
+        }
+      ],
+      "serviceType": [
+        "Apartman temizliği",
+        "Site temizliği",
+        "Ev ve daire temizliği",
+        "Ofis ve işyeri temizliği",
+        "Merdiven temizliği",
+        "Ortak alan temizliği",
+        "Cam temizliği",
+        "İnşaat sonrası temizlik"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/cagnurtemizlik/",
+        "https://www.tiktok.com/@cagnurtemizlik",
+        "https://maps.google.com/maps?cid=13591023073851880843"
+      ],
+      "knowsAbout": [
+        "Sarıçam apartman temizliği",
+        "Sarıçam site temizliği",
+        "apartman ortak alan temizliği",
+        "merdiven temizliği",
+        "asansör temizliği",
+        "cam temizliği",
+        "ev temizliği",
+        "ofis temizliği",
+        "inşaat sonrası temizlik"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Çağ-Nur Temizlik Hizmetleri",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "position": 1,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Apartman temizliği",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 2,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Site temizliği",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 3,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ev ve daire temizliği",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 4,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ofis ve işyeri temizliği",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 5,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Merdiven temizliği",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 6,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ortak alan temizliği",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 7,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cam temizliği",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "position": 8,
+            "itemOffered": {
+              "@type": "Service",
+              "name": "İnşaat sonrası temizlik",
+              "provider": {
+                "@id": "https://cagnurtemizlik.com.tr/#business"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cagnurtemizlik.com.tr/#website",
+      "url": "https://cagnurtemizlik.com.tr/",
+      "name": "Çağ-Nur Temizlik",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@id": "https://cagnurtemizlik.com.tr/#business"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://cagnurtemizlik.com.tr/#organization",
+      "name": "Çağ-Nur Temizlik",
+      "url": "https://cagnurtemizlik.com.tr/",
+      "telephone": "+905419147801",
+      "sameAs": [
+        "https://www.instagram.com/cagnurtemizlik/",
+        "https://www.tiktok.com/@cagnurtemizlik",
+        "https://maps.google.com/maps?cid=13591023073851880843"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://cagnurtemizlik.com.tr/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://cagnurtemizlik.com.tr/"
+        }
+      ]
+    }
   ]
 }
 </script>
