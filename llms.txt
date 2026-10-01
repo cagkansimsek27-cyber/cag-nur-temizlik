@@ -37,3 +37,19 @@
 Çağ-Nur Temizlik, Sarıçam'da apartman yöneticileri, site yönetimleri ve yönetim şirketleri için bina veya site ihtiyaçlarına göre temizlik kapsamı ve çalışma planı oluşturur. Kat ve daire sayısı, blok sayısı, ortak alanlar ve temizlik sıklığı teklif sürecinde değerlendirilir.
 
 - Yönetim şirketleri için temizlik iş ortaklığı: https://cagnurtemizlik.com.tr/saricam-yonetim-sirketleri-icin-temizlik-is-ortakligi.html
+
+## Sarıçam neighborhood service pages
+- Çarkıpare: https://cagnurtemizlik.com.tr/saricam-carkipare-temizlik.html
+- Gültepe: https://cagnurtemizlik.com.tr/saricam-gultepe-temizlik.html
+- Mehmet Akif Ersoy: https://cagnurtemizlik.com.tr/saricam-mehmet-akif-ersoy-temizlik.html
+- Boynuyoğun: https://cagnurtemizlik.com.tr/saricam-boynuyogun-temizlik.html
+- Elif Su Uludağ: https://cagnurtemizlik.com.tr/saricam-elif-su-uludag-temizlik.html
+- Osmangazi: https://cagnurtemizlik.com.tr/saricam-osmangazi-temizlik.html
+- Esentepe: https://cagnurtemizlik.com.tr/saricam-esentepe-temizlik.html
+- Orhangazi: https://cagnurtemizlik.com.tr/saricam-orhangazi-temizlik.html
+- Sofudede: https://cagnurtemizlik.com.tr/saricam-sofudede-temizlik.html
+- Şahintepe: https://cagnurtemizlik.com.tr/saricam-sahintepe-temizlik.html
+- Yavuz Sultan Selim: https://cagnurtemizlik.com.tr/saricam-yavuz-sultan-selim-temizlik.html
+- Beyceli: https://cagnurtemizlik.com.tr/saricam-beyceli-temizlik.html
+- Ertuğrul Gazi: https://cagnurtemizlik.com.tr/saricam-ertugrul-gazi-temizlik.html
+- Yeşiltepe: https://cagnurtemizlik.com.tr/saricam-yesiltepe-temizlik.html
