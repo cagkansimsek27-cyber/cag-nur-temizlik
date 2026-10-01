@@ -315,7 +315,9 @@ linear-gradient(135deg,#103654 0%,#164b6d 52%,#1b5d4b 100%)}
 .section-title{text-align:center;font-size:38px;line-height:1.15;margin-bottom:10px}
 .section-sub{text-align:center;color:#718087;font-size:17px;margin-bottom:38px}
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.service-card{background:#fff;border:1px solid #e3ece6;border-radius:18px;padding:28px 22px;min-height:195px;box-shadow:0 6px 18px rgba(18,54,83,.05)}
+/* LOCAL / MANAGEMENT CARDS */
+.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:8px}
+.service-card{display:block;text-decoration:none;background:#fff;border:1px solid #e3ece6;border-radius:18px;padding:28px 22px;min-height:150px;box-shadow:0 6px 18px rgba(18,54,83,.05)}
 .service-icon{font-size:40px;margin-bottom:14px}
 .service-card h3{font-size:19px;margin-bottom:7px}
 .service-card p{color:#718087;font-size:14px}
@@ -628,6 +630,8 @@ textarea{min-height:105px;resize:vertical}
  .q-text small{font-size:11px}
  .trust{font-size:13px;letter-spacing:2px}
  .services-grid{grid-template-columns:1fr}
+ .service-grid{grid-template-columns:1fr}
+ .service-card{min-height:0;padding:22px 18px}
  .review-grid{grid-template-columns:1fr}
  .review{padding:22px}
  .review-top{align-items:flex-start;flex-direction:column}
