@@ -857,6 +857,46 @@ textarea{min-height:105px;resize:vertical}
   .btn{min-height:54px}
 }
 
+
+/* HERO FINAL — DESKTOP + MOBILE SAME DESIGN */
+.hero{
+  min-height:520px !important;
+  height:520px;
+  background:
+    linear-gradient(90deg,rgba(8,42,63,.82) 0%,rgba(8,42,63,.62) 36%,rgba(8,42,63,.18) 72%,rgba(8,42,63,.08) 100%),
+    url("https://static.wixstatic.com/media/11062b_ac65865e596f4e2e9192c1074a2be971~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Modernt%20l%C3%A4genhetskompleks.jpg") center center/cover no-repeat !important;
+}
+.hero-inner{
+  min-height:520px !important;
+  height:520px;
+  display:flex;
+  align-items:center;
+}
+.hero-content{width:100%;max-width:800px;padding:38px 0}
+.hero h1{font-size:50px;line-height:1.06}
+.hero p{font-size:18px;line-height:1.55;max-width:720px}
+.actions{display:flex;gap:14px;flex-wrap:wrap}
+.btn{min-height:60px;padding:0 27px;font-size:17px}
+@media(max-width:700px){
+  .hero,.hero-inner{
+    min-height:520px !important;
+    height:520px;
+  }
+  .hero-content{padding:34px 0}
+  .hero h1{font-size:38px;line-height:1.08;letter-spacing:-.7px}
+  .hero p{font-size:17px;line-height:1.5}
+  .btn{min-height:58px;font-size:16px;padding:0 22px}
+}
+@media(max-width:430px){
+  .hero,.hero-inner{
+    min-height:520px !important;
+    height:520px;
+  }
+  .hero h1{font-size:34px}
+  .hero p{font-size:16px}
+  .actions{gap:12px}
+}
+
 </style>
 
 <style>
