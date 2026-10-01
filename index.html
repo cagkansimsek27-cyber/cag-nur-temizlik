@@ -817,32 +817,44 @@ textarea{min-height:105px;resize:vertical}
   }
  }
 
-/* HERO MODERN SITE PHOTO */
+/* HERO MODERN SITE PHOTO — RESPONSIVE / SAME VISUAL LANGUAGE */
 .hero{
-  min-height:550px;
+  min-height:520px;
   background:
-    linear-gradient(90deg,rgba(8,42,63,.88) 0%,rgba(8,42,63,.68) 34%,rgba(8,42,63,.18) 68%,rgba(8,42,63,.05) 100%),
-    url("https://static.wixstatic.com/media/11062b_ac65865e596f4e2e9192c1074a2be971~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Modernt%20l%C3%A4genhetskomplex.jpg") center center/cover no-repeat;
+    linear-gradient(90deg,rgba(8,42,63,.82) 0%,rgba(8,42,63,.62) 36%,rgba(8,42,63,.18) 72%,rgba(8,42,63,.08) 100%),
+    url("https://static.wixstatic.com/media/11062b_ac65865e596f4e2e9192c1074a2be971~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Modernt%20l%C3%A4genhetskompleks.jpg") center center/cover no-repeat;
 }
 .hero:before{
-  width:100%;
-  height:100%;
-  right:auto;
-  top:0;
-  border:0;
-  border-radius:0;
-  transform:none;
-  background:linear-gradient(180deg,rgba(0,0,0,.04),rgba(0,0,0,.16));
+  width:100%;height:100%;right:auto;top:0;border:0;border-radius:0;transform:none;
+  background:linear-gradient(180deg,rgba(255,255,255,0),rgba(4,28,42,.14));
+  pointer-events:none;
 }
-.hero-inner{min-height:550px}
+.hero-inner{min-height:520px}
+.hero-content{padding:38px 0;max-width:800px}
+.hero h1{font-size:50px;line-height:1.06}
+.hero p{font-size:18px;max-width:720px}
 @media(max-width:700px){
   .hero{
-    min-height:570px;
+    min-height:500px;
     background:
-      linear-gradient(180deg,rgba(8,42,63,.76) 0%,rgba(8,42,63,.55) 42%,rgba(8,42,63,.34) 100%),
-      url("https://static.wixstatic.com/media/11062b_ac65865e596f4e2e9192c1074a2be971~mv2.jpg/v1/fill/w_900,h_1100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Modernt%20l%C3%A4genhetskomplex.jpg") center center/cover no-repeat;
+      linear-gradient(180deg,rgba(8,42,63,.70) 0%,rgba(8,42,63,.58) 48%,rgba(8,42,63,.42) 100%),
+      url("https://static.wixstatic.com/media/11062b_ac65865e596f4e2e9192c1074a2be971~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Modernt%20l%C3%A4genhetskompleks.jpg") center center/cover no-repeat;
   }
-  .hero-inner{min-height:570px}
+  .hero-inner{min-height:500px;align-items:center}
+  .hero-content{width:100%;padding:32px 0 28px}
+  .location{font-size:16px;margin-bottom:18px}
+  .hero h1{font-size:37px;line-height:1.08;letter-spacing:-.7px;margin-bottom:16px}
+  .hero p{font-size:16px;line-height:1.48;margin-bottom:24px;max-width:100%}
+  .actions{gap:12px}
+  .btn{min-height:56px;padding:0 20px;font-size:16px;border-radius:11px}
+}
+@media(max-width:430px){
+  .hero{min-height:490px;background-position:center center}
+  .hero-inner{min-height:490px}
+  .hero-content{padding-top:26px}
+  .hero h1{font-size:34px}
+  .hero p{font-size:15.5px}
+  .btn{min-height:54px}
 }
 
 </style>
