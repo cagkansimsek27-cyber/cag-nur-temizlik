@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# Allow search crawlers used by AI-assisted search and major search engines.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 Sitemap: https://cagnurtemizlik.com.tr/sitemap.xml
