@@ -1,18 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
-<title id="title">Çağ-Nur Temizlik</title><desc id="desc">Lacivert ve yeşil bina, yaprak ve Çağ-Nur Temizlik yazılı marka logosu</desc>
-<rect width="460" height="110" fill="#fff"/>
-<g transform="translate(3 3)">
- <path d="M12 67 C2 30 29 4 67 1 C49 13 31 32 31 53 C31 75 53 91 78 88 C51 101 20 91 12 67Z" fill="#398a22"/>
- <path d="M15 71 C33 91 73 96 102 73 L91 91 C62 106 25 99 10 78Z" fill="#123653"/>
- <path d="M31 65V35L48 22V65Z" fill="#123653"/>
- <path d="M49 65V8L67 20V65Z" fill="#123653"/>
- <path d="M68 65V39L83 29V65Z" fill="#123653"/>
- <g fill="#fff"><path d="M37 40h5v5h-5zM37 49h5v5h-5zM55 23h6v6h-6zM55 34h6v6h-6zM55 45h6v6h-6zM73 43h5v5h-5zM73 52h5v5h-5z"/></g>
- <path d="M50 70L68 55L88 70L70 70L63 64L56 70Z" fill="#398a22"/>
- <path d="M68 78 C84 59 101 62 111 47 C108 71 91 88 68 78Z" fill="#398a22"/>
- <path d="M98 27l4 9 9 4-9 4-4 9-4-9-9-4 9-4z" fill="#398a22"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="150" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+<title id="title">Çağ-Nur Temizlik</title>
+<desc id="desc">Önceki Çağ-Nur Temizlik logosu: lacivert binalar, yeşil hilal ve yaprak, Çağ-Nur Temizlik yazısı ve slogan.</desc>
+<defs>
+ <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4d9b22"/><stop offset="1" stop-color="#176b16"/></linearGradient>
+ <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#234b70"/><stop offset="1" stop-color="#071c35"/></linearGradient>
+</defs>
+<rect width="520" height="150" fill="#fff"/>
+<!-- crescent and building emblem -->
+<path d="M73 8C34 15 12 46 15 78C17 108 43 128 77 127C44 115 31 91 35 65C39 39 54 20 73 8Z" fill="url(#green)"/>
+<path d="M24 93C42 119 79 132 111 112L102 127C68 143 31 126 17 104Z" fill="url(#navy)"/>
+<g stroke="#fff" stroke-width="2">
+ <path d="M48 103V58L66 42V103Z" fill="url(#navy)"/>
+ <path d="M66 103V16L87 31V103Z" fill="url(#navy)"/>
+ <path d="M87 103V58L105 47V103Z" fill="url(#navy)"/>
 </g>
-<text x="119" y="48" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="900" letter-spacing="-1" fill="#123653">ÇAĞ-NUR</text>
-<text x="124" y="78" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" letter-spacing="6" fill="#398a22">TEMİZLİK</text>
-<path d="M124 91H225 M340 91H440" stroke="#398a22" stroke-width="1.8"/>
+<g fill="#fff">
+ <path d="M54 66h5v6h-5zM54 77h5v6h-5zM54 88h5v6h-5z"/>
+ <path d="M73 39h7v7h-7zM73 52h7v7h-7zM73 65h7v7h-7zM73 78h7v7h-7z"/>
+ <path d="M92 66h6v6h-6zM92 78h6v6h-6zM92 90h6v6h-6z"/>
+</g>
+<path d="M45 105L67 87L88 104L76 104L67 97L58 105Z" fill="url(#green)"/>
+<path d="M76 119C89 99 111 96 122 78C119 105 99 125 76 119Z" fill="url(#green)"/>
+<g fill="url(#green)">
+ <path d="M120 31l5 11 11 5-11 5-5 11-5-11-11-5 11-5z"/>
+ <path d="M137 54l4 8 8 4-8 4-4 8-4-8-8-4 8-4z"/>
+</g>
+<text x="145" y="59" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="900" letter-spacing="-1.4" fill="url(#navy)">ÇAĞ-</text>
+<text x="267" y="59" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="900" letter-spacing="-1.4" fill="url(#green)">NUR</text>
+<path d="M145 69H382" stroke="#173653" stroke-width="2"/>
+<text x="158" y="91" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" letter-spacing="7" fill="#0c213a">TEMİZLİK</text>
+<text x="145" y="110" font-family="Arial,Helvetica,sans-serif" font-size="8.8" font-style="italic" fill="#14263a">“Temizlik Bizim İşimiz, Memnuniyet Sizin Huzurunuz.”</text>
 </svg>
