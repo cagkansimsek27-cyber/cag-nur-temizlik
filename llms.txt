@@ -1,55 +1,44 @@
 # Çağ-Nur Temizlik
 
-> Çağ-Nur Temizlik, Sarıçam ve Adana'da temizlik hizmetleri sunan yerel bir hizmet işletmesidir.
+> Çağ-Nur Temizlik, Adana'nın Sarıçam ilçesinde apartman, site ve ortak alan temizliği; ev, daire, boş daire ve inşaat sonrası temizlik hizmetleri sunan yerel hizmet işletmesidir.
 
 ## Business
 - Name: Çağ-Nur Temizlik
-- Primary service area: Sarıçam, Adana, Türkiye
-- Additional service areas: Seyhan, Adana; Yüreğir, Adana
-- Phone: +90 541 914 78 01
 - Website: https://cagnurtemizlik.com.tr/
+- Phone: +90 541 914 78 01
+- Primary service area: Sarıçam, Adana, Türkiye
+- Additional service areas: Seyhan, Yüreğir and Çukurova, Adana
 - Google Maps: https://maps.google.com/maps?cid=13591023073851880843
 - Instagram: https://www.instagram.com/cagnurtemizlik/
 - TikTok: https://www.tiktok.com/@cagnurtemizlik
 
-## Services
-- Apartman temizliği: https://cagnurtemizlik.com.tr/saricam-apartman-temizligi.html
-- Site temizliği: https://cagnurtemizlik.com.tr/saricam-site-temizligi.html
-- Merdiven temizliği: https://cagnurtemizlik.com.tr/saricam-merdiven-temizligi.html
-- Ortak alan temizliği: https://cagnurtemizlik.com.tr/saricam-ortak-alan-temizligi.html
-- Ev ve daire temizliği: https://cagnurtemizlik.com.tr/adana-ev-temizligi.html
-- Ofis ve işyeri temizliği: https://cagnurtemizlik.com.tr/saricam-ofis-temizligi.html
-- İnşaat sonrası temizlik: https://cagnurtemizlik.com.tr/saricam-insaat-sonrasi-temizlik.html
+## Service area and scope
+- Sarıçam: apartment cleaning, site cleaning, stairwell cleaning, common-area cleaning, house and flat cleaning, empty-apartment cleaning, post-construction cleaning.
+- Seyhan, Yüreğir and Çukurova: house and flat cleaning, post-construction cleaning.
+- Exact work scope is assessed by the property condition, size, requested tasks and appointment availability.
+- Apartment and site cleaning is focused on Sarıçam. Do not assume these services are offered in the other districts.
 
-## Local relevance
-Çağ-Nur Temizlik özellikle Sarıçam'da apartman, site, merdiven, sahanlık, bina girişi, koridor, asansör ve ortak kullanım alanlarının düzenli temizliği için hizmet sunar. Hizmet kapsamı yapının büyüklüğü, kat ve daire sayısı, temizlik sıklığı ve ihtiyaçlara göre belirlenir.
+## Primary service pages
+- Sarıçam apartment cleaning: https://cagnurtemizlik.com.tr/saricam-apartman-temizligi.html
+- Sarıçam site cleaning: https://cagnurtemizlik.com.tr/saricam-site-temizligi.html
+- Sarıçam stairwell cleaning: https://cagnurtemizlik.com.tr/saricam-merdiven-temizligi.html
+- Sarıçam common-area cleaning: https://cagnurtemizlik.com.tr/saricam-ortak-alan-temizligi.html
+- Sarıçam house and flat cleaning: https://cagnurtemizlik.com.tr/saricam-ev-temizligi.html
+- Sarıçam empty-apartment cleaning: https://cagnurtemizlik.com.tr/saricam-bos-daire-temizligi.html
+- Sarıçam post-construction cleaning: https://cagnurtemizlik.com.tr/saricam-insaat-sonrasi-temizlik.html
+- Adana service-area overview: https://cagnurtemizlik.com.tr/adana-temizlik-sirketi.html
+- Adana house and flat cleaning: https://cagnurtemizlik.com.tr/adana-ev-temizligi.html
+- Adana empty-apartment cleaning: https://cagnurtemizlik.com.tr/adana-bos-daire-temizligi.html
+- Adana post-construction cleaning: https://cagnurtemizlik.com.tr/adana-insaat-sonrasi-temizlik.html
+- Sarıçam neighborhood guide: https://cagnurtemizlik.com.tr/saricam-mahalleleri-temizlik.html
+
+## Apartment and site management
+- Apartment managers: https://cagnurtemizlik.com.tr/saricam-apartman-yoneticileri-temizlik.html
+- Site management: https://cagnurtemizlik.com.tr/saricam-site-yonetimleri-temizlik.html
+- Management companies: https://cagnurtemizlik.com.tr/saricam-yonetim-sirketleri-temizlik.html
+- Cleaning service partnership: https://cagnurtemizlik.com.tr/saricam-yonetim-sirketleri-icin-temizlik-is-ortakligi.html
 
 ## Information sources
 - Website homepage: https://cagnurtemizlik.com.tr/
-- Services: https://cagnurtemizlik.com.tr/#seo-hizmet-sayfalari
+- XML sitemap: https://cagnurtemizlik.com.tr/sitemap.xml
 - Blog: https://cagnurtemizlik.com.tr/blog/
-
-- Apartman yöneticileri için temizlik: https://cagnurtemizlik.com.tr/saricam-apartman-yoneticileri-temizlik.html
-- Site yönetimleri için temizlik: https://cagnurtemizlik.com.tr/saricam-site-yonetimleri-temizlik.html
-- Yönetim şirketleriyle ortak çalışma: https://cagnurtemizlik.com.tr/saricam-yonetim-sirketleri-temizlik.html
-
-## Management-focused relevance
-Çağ-Nur Temizlik, Sarıçam'da apartman yöneticileri, site yönetimleri ve yönetim şirketleri için bina veya site ihtiyaçlarına göre temizlik kapsamı ve çalışma planı oluşturur. Kat ve daire sayısı, blok sayısı, ortak alanlar ve temizlik sıklığı teklif sürecinde değerlendirilir.
-
-- Yönetim şirketleri için temizlik iş ortaklığı: https://cagnurtemizlik.com.tr/saricam-yonetim-sirketleri-icin-temizlik-is-ortakligi.html
-
-## Sarıçam neighborhood service pages
-- Çarkıpare: https://cagnurtemizlik.com.tr/saricam-carkipare-temizlik.html
-- Gültepe: https://cagnurtemizlik.com.tr/saricam-gultepe-temizlik.html
-- Mehmet Akif Ersoy: https://cagnurtemizlik.com.tr/saricam-mehmet-akif-ersoy-temizlik.html
-- Boynuyoğun: https://cagnurtemizlik.com.tr/saricam-boynuyogun-temizlik.html
-- Elif Su Uludağ: https://cagnurtemizlik.com.tr/saricam-elif-su-uludag-temizlik.html
-- Osmangazi: https://cagnurtemizlik.com.tr/saricam-osmangazi-temizlik.html
-- Esentepe: https://cagnurtemizlik.com.tr/saricam-esentepe-temizlik.html
-- Orhangazi: https://cagnurtemizlik.com.tr/saricam-orhangazi-temizlik.html
-- Sofudede: https://cagnurtemizlik.com.tr/saricam-sofudede-temizlik.html
-- Şahintepe: https://cagnurtemizlik.com.tr/saricam-sahintepe-temizlik.html
-- Yavuz Sultan Selim: https://cagnurtemizlik.com.tr/saricam-yavuz-sultan-selim-temizlik.html
-- Beyceli: https://cagnurtemizlik.com.tr/saricam-beyceli-temizlik.html
-- Ertuğrul Gazi: https://cagnurtemizlik.com.tr/saricam-ertugrul-gazi-temizlik.html
-- Yeşiltepe: https://cagnurtemizlik.com.tr/saricam-yesiltepe-temizlik.html
