@@ -1102,7 +1102,12 @@ body.menu-open{overflow:hidden}
  margin:0 auto;
  padding:44px 16px 48px!important;
 }
-.footer-logo-wrap,
+/* Footer logosu görünür; sosyal ikonlar ve alt menü kompakt tasarımda gizli kalır. */
+.footer-logo-wrap{
+ display:flex!important;
+ justify-content:center;
+ align-items:center;
+}
 .footer-contact-row,
 .footer-nav{
  display:none!important;
