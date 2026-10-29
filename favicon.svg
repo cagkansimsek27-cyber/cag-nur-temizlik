@@ -1,11 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="13" fill="#ffffff"/>
-  <circle cx="32" cy="32" r="29" fill="#ffffff" stroke="#238b35" stroke-width="4"/>
-  <path d="M17 45V27l7-6v24zm9 0V15l8 6v24zm10 0V28l8-6v23z" fill="#123653"/>
-  <g fill="#ffffff">
-    <path d="M20 30h2v4h-2zm0 7h2v4h-2zm9-17h3v4h-3zm0 7h3v4h-3zm0 7h3v4h-3zm10-4h3v4h-3zm0 7h3v4h-3z"/>
-  </g>
-  <path d="M9 39c6 9 18 13 29 9-8 8-23 7-30-3z" fill="#238b35"/>
-  <path d="M42 47c2-10 9-15 15-17-2 11-7 17-15 17z" fill="#238b35"/>
-  <path d="M49 9l2 4 4 2-4 2-2 4-2-4-4-2 4-2z" fill="#238b35"/>
+<rect width="64" height="64" rx="14" fill="#ffffff"/>
+<path d="M27 6C13 10 5 22 7 35c2 12 13 21 27 21-11-5-17-15-16-26 1-10 4-17 9-24Z" fill="#4d9b22"/>
+<path d="M12 43c8 10 20 14 34 7l-5 7C27 62 13 55 8 47Z" fill="#173653"/>
+<g fill="#173653">
+<path d="M18 47V29l8-7v25z"/>
+<path d="M28 47V13l9 7v27z"/>
+<path d="M39 47V29l8-6v24z"/>
+</g>
+<g fill="#ffffff">
+<path d="M21 32h2v4h-2zm0 7h2v4h-2zm10-21h3v4h-3zm0 7h3v4h-3zm0 7h3v4h-3zm10 0h3v4h-3zm0 7h3v4h-3z"/>
+</g>
+<path d="M43 48c3-9 9-13 15-15-1 9-6 15-15 15Z" fill="#4d9b22"/>
+<path d="M49 8l2 4 4 2-4 2-2 4-2-4-4-2 4-2Z" fill="#4d9b22"/>
 </svg>
