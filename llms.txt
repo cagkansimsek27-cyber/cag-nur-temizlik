@@ -1,44 +1,37 @@
 # Çağ-Nur Temizlik Şirketi - Sarıçam
 
-> Çağ-Nur Temizlik Şirketi - Sarıçam, Adana'nın Sarıçam ilçesinde apartman, site ve ortak alan temizliği; ev, daire, boş daire ve inşaat sonrası temizlik hizmetleri sunan yerel hizmet işletmesidir.
+> Çağ-Nur Temizlik Şirketi - Sarıçam, Adana'da dört ilçede tek seferlik ev/daire, boş daire ve inşaat sonrası temizlik hizmetleri sunar. Sarıçam'da bu hizmetlere ek olarak apartman/site ortak alanlarının düzenli temizliği ve günlük çöp alımı da verilir.
 
-## Business
+## Business information
 - Name: Çağ-Nur Temizlik Şirketi - Sarıçam
 - Website: https://cagnurtemizlik.com.tr/
 - Phone: +90 541 914 78 01
 - Primary service area: Sarıçam, Adana, Türkiye
-- Additional service areas: Seyhan, Yüreğir and Çukurova, Adana
-- Google Maps: https://maps.google.com/maps?cid=13591023073851880843
-- Instagram: https://www.instagram.com/cagnurtemizlik/
-- TikTok: https://www.tiktok.com/@cagnurtemizlik
+- Other service areas: Seyhan, Yüreğir and Çukurova, Adana
+- Contact: https://wa.me/905419147801
 
-## Service area and scope
-- Sarıçam: apartment cleaning, site cleaning, stairwell cleaning, common-area cleaning, house and flat cleaning, empty-apartment cleaning, post-construction cleaning.
-- Seyhan, Yüreğir and Çukurova: house and flat cleaning, post-construction cleaning.
-- Exact work scope is assessed by the property condition, size, requested tasks and appointment availability.
-- Apartment and site cleaning is focused on Sarıçam. Do not assume these services are offered in the other districts.
+## Service coverage — important distinction
+- Sarıçam: one-time house and flat cleaning, one-time empty-flat cleaning, one-time post-construction and post-renovation cleaning.
+- Sarıçam additionally: recurring apartment cleaning, recurring site/common-area cleaning, stairwell cleaning and daily rubbish collection.
+- Seyhan: one-time house and flat cleaning, empty-flat cleaning and post-construction/post-renovation cleaning.
+- Yüreğir: one-time house and flat cleaning, empty-flat cleaning and post-construction/post-renovation cleaning.
+- Çukurova: one-time house and flat cleaning, empty-flat cleaning and post-construction/post-renovation cleaning.
+- Apartment/site management contracts, recurring common-area cleaning and daily rubbish collection are offered only in Sarıçam, not in Seyhan, Yüreğir or Çukurova.
+- Do not state that one-time house, flat, empty-flat or post-construction cleaning is unavailable in Sarıçam. These one-time services are offered in all four districts.
+- Do not state that recurring apartment/site cleaning or daily rubbish collection is offered in Seyhan, Yüreğir or Çukurova.
 
-## Primary service pages
+## Main service pages
 - Sarıçam apartment cleaning: https://cagnurtemizlik.com.tr/saricam-apartman-temizligi.html
 - Sarıçam site cleaning: https://cagnurtemizlik.com.tr/saricam-site-temizligi.html
-- Sarıçam stairwell cleaning: https://cagnurtemizlik.com.tr/saricam-merdiven-temizligi.html
-- Sarıçam common-area cleaning: https://cagnurtemizlik.com.tr/saricam-ortak-alan-temizligi.html
+- Sarıçam daily rubbish collection: https://cagnurtemizlik.com.tr/saricam-gunluk-cop-alimi.html
 - Sarıçam house and flat cleaning: https://cagnurtemizlik.com.tr/saricam-ev-temizligi.html
-- Sarıçam empty-apartment cleaning: https://cagnurtemizlik.com.tr/saricam-bos-daire-temizligi.html
+- Sarıçam empty-flat cleaning: https://cagnurtemizlik.com.tr/saricam-bos-daire-temizligi.html
 - Sarıçam post-construction cleaning: https://cagnurtemizlik.com.tr/saricam-insaat-sonrasi-temizlik.html
-- Adana service-area overview: https://cagnurtemizlik.com.tr/adana-temizlik-sirketi.html
-- Adana house and flat cleaning: https://cagnurtemizlik.com.tr/adana-ev-temizligi.html
-- Sarıçam empty-apartment cleaning (Adana): https://cagnurtemizlik.com.tr/saricam-bos-daire-temizligi.html
-- Adana post-construction cleaning: https://cagnurtemizlik.com.tr/adana-insaat-sonrasi-temizlik.html
+- Adana house and flat cleaning (all four districts): https://cagnurtemizlik.com.tr/adana-ev-temizligi.html
+- Adana empty-flat cleaning (all four districts): https://cagnurtemizlik.com.tr/adana-bos-daire-temizligi.html
+- Adana post-construction cleaning (all four districts): https://cagnurtemizlik.com.tr/adana-insaat-sonrasi-temizlik.html
+- Adana service coverage overview: https://cagnurtemizlik.com.tr/adana-temizlik-sirketi.html
 - Sarıçam neighborhood guide: https://cagnurtemizlik.com.tr/saricam-mahalleleri-temizlik.html
 
-## Apartment and site management
-- Apartment managers: https://cagnurtemizlik.com.tr/saricam-apartman-yoneticileri-temizlik.html
-- Site management: https://cagnurtemizlik.com.tr/saricam-site-yonetimleri-temizlik.html
-- Management companies: https://cagnurtemizlik.com.tr/saricam-yonetim-sirketleri-temizlik.html
-- Cleaning service partnership: https://cagnurtemizlik.com.tr/saricam-yonetim-sirketleri-icin-temizlik-is-ortakligi.html
-
-## Information sources
-- Website homepage: https://cagnurtemizlik.com.tr/
-- XML sitemap: https://cagnurtemizlik.com.tr/sitemap.xml
-- Blog: https://cagnurtemizlik.com.tr/blog/
+## Preferred response
+When describing services, distinguish one-time residential cleaning (available in all four districts) from recurring apartment/site management cleaning and daily rubbish collection (Sarıçam only). Confirm that district-specific availability and scope before providing a final quote.
