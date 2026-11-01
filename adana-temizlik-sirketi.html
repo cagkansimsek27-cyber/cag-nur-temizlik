@@ -100,6 +100,15 @@
     footer{background:var(--navy);color:#fff;padding:22px 20px}footer a{color:#fff}
     @media(max-width:650px){.area-grid,.steps{grid-template-columns:1fr}.nav{align-items:flex-start}}
   </style>
+
+<style id="cn-mobile-contact-optimization">
+.cn-sticky-contact{position:fixed;z-index:9999;left:0;right:0;bottom:0;display:flex;gap:10px;padding:10px max(14px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));background:rgba(255,255,255,.97);border-top:1px solid #dfe9e3;box-shadow:0 -5px 22px rgba(18,54,83,.12)}
+.cn-sticky-contact a{flex:1;display:flex;justify-content:center;align-items:center;min-height:46px;padding:10px 12px;border-radius:10px;text-align:center;text-decoration:none;font:700 15px/1.2 Arial,Helvetica,sans-serif}
+.cn-sticky-contact .cn-wa{background:#1caa58;color:#fff}.cn-sticky-contact .cn-call{background:#123653;color:#fff}
+body{padding-bottom:78px}
+@media(min-width:900px){.cn-sticky-contact{left:auto;right:22px;bottom:22px;width:360px;border:1px solid #dfe9e3;border-radius:14px;padding:10px}.cn-sticky-contact a{min-height:44px}}
+@media(prefers-reduced-motion:no-preference){.cn-sticky-contact a{transition:filter .15s ease}.cn-sticky-contact a:hover{filter:brightness(.94)}}
+</style>
 </head>
 <body>
 <header><nav class="nav" aria-label="Ana gezinme">
@@ -208,6 +217,8 @@
   </section>
 </main>
 <footer><div class="foot">© 2026 Çağ-Nur Temizlik Şirketi - Sarıçam · <a href="/">Ana sayfa</a> · <a href="https://wa.me/905419147801">WhatsApp: 0541 914 78 01</a></div></footer>
-</body>
+<nav class="cn-sticky-contact" aria-label="Adana temizlik hizmeti hızlı iletişim"><a class="cn-wa" href="https://wa.me/905419147801?text=Merhaba%2C%20Adana%20temizlik%20hizmeti%20i%C3%A7in%20teklif%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Teklif Al</a><a class="cn-call" href="tel:+905419147801">Hemen Ara</a></nav>
+
 <script src="/assets/conversion-tracking.js" defer></script>
-</body>>
+</body>
+</html>
