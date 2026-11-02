@@ -17,14 +17,6 @@
     window.gtag("config", TAG_ID);
   }
 
-  // Configure the Google Ads destination from this account on every page
-  // that loads this shared tracking file. Reuse the existing gtag.js library.
-  var ADS_TAG_ID = "AW-18461522525";
-  if (!window.__cnAdsTagConfigured) {
-    window.gtag("config", ADS_TAG_ID);
-    window.__cnAdsTagConfigured = true;
-  }
-
   function sendLeadEvent(name, params) {
     var payload = Object.assign({
       event_category: "lead",
