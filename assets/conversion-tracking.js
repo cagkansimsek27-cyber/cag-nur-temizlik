@@ -6,6 +6,12 @@
     window.gtag = function () { window.dataLayer.push(arguments); };
   }
 
+  // Send events and page views to the confirmed GA4 web stream.
+  if (!window.__cagNurGa4Configured) {
+    window.gtag("config", "G-271LYKZ9B9");
+    window.__cagNurGa4Configured = true;
+  }
+
   // Load the existing Google tag on service pages that did not previously have it.
   var tagSelector = 'script[src*="gtag/js?id=' + TAG_ID + '"]';
   if (!document.querySelector(tagSelector)) {
