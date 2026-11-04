@@ -68,24 +68,41 @@
     return href;
   }
 
-  // Clicks are intent signals: phone_click is not proof that a call connected.
+  // Mobile browsers may hand tel: links to the dialer immediately.
+  // Track on pointerdown as well as click, while deduplicating the same tap.
+  // Keyboard activation still falls back to the click listener.
+  var phonePointerTracked = new WeakSet();
+
+  function trackPhoneClick(link) {
+    if (!link || phonePointerTracked.has(link)) return;
+    var href = (link.getAttribute("href") || "").trim();
+    if (!/^tel:/i.test(href)) return;
+
+    phonePointerTracked.add(link);
+    var label = (link.innerText || link.textContent || "").trim().slice(0, 100);
+    sendLeadEvent("phone_click", {
+      method: "phone",
+      link_url: href,
+      link_text: label
+    });
+  }
+
+  document.addEventListener("pointerdown", function (event) {
+    trackPhoneClick(getAnchor(event.target));
+  }, true);
+
   document.addEventListener("click", function (event) {
     var link = getAnchor(event.target);
     if (!link) return;
 
     var href = (link.getAttribute("href") || "").trim();
-    var label = (link.innerText || link.textContent || "").trim().slice(0, 100);
-
     if (/^tel:/i.test(href)) {
-      sendLeadEvent("phone_click", {
-        method: "phone",
-        link_url: href,
-        link_text: label
-      });
+      trackPhoneClick(link);
       return;
     }
 
-    if (/(wa\.me|api\.whatsapp|whatsapp\.com)/i.test(href)) {
+    if (/(wa\\.me|api\\.whatsapp|whatsapp\\.com)/i.test(href)) {
+      var label = (link.innerText || link.textContent || "").trim().slice(0, 100);
       sendLeadEvent("whatsapp_click", {
         method: "whatsapp",
         link_url: getSafeLinkUrl(href, true),
